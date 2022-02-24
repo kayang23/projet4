@@ -1,0 +1,67 @@
+.tc_black{
+    color: black!important;
+}
+
+.tc-white{
+    color: white!important;
+}
+
+.black{
+    color: black!important;
+}
+
+.navbar{
+    margin: 0 10px 0 10px;
+}
+
+.img-responsive{
+    margin: auto;
+}
+
+p{
+    font-size: 22px;
+}
+
+.text-pdg, .adresse-contact, .text-center{
+    font-size: 14px;
+}
+
+address{
+    font-size: 14px !important;
+    padding-left: 10px;
+}
+
+i{
+    color: white !important;
+}
+
+i:hover, address{
+    color: black !important;
+}
+
+.fond{
+    background-color: #a25936;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+/* centre la croix sur l'image */
+a[data-lightbox]:hover::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    left: 50%;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
