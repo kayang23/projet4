@@ -64,4 +64,14 @@ a[data-lightbox]:hover::before{
 
 
 
+.focus:focus {
+    border : 5px solid rgba(0,0,0,0.5);
+}
+
+@media screen and (max-width : 350px){
+
+    .flex-auto-column{
+        flex-direction : column;
+    }
+}
 
